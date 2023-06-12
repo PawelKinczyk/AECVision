@@ -167,11 +167,3 @@ images/
 import_prediction_images/
 podnew/
 
-# Leave only file structure without labeled images
-small_dataset/images/test/*.jpg
-small_dataset/images/training/*.jpg
-small_dataset/images/validation/*.jpg
-
-small_dataset/labels/test/*.txt
-small_dataset/labels/training/*.txt
-small_dataset/labels/validation/*.txt
