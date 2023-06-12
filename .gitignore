@@ -163,7 +163,7 @@ cython_debug/
 # Others
 small_dataset_augmented/
 small_dataset_rar/
-images/
+images
 import_prediction_images/
 podnew/
 
