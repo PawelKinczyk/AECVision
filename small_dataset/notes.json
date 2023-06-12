@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "bath"
+    },
+    {
+      "id": 1,
+      "name": "dishwasher \/ washing machine"
+    },
+    {
+      "id": 2,
+      "name": "door"
+    },
+    {
+      "id": 3,
+      "name": "furniture"
+    },
+    {
+      "id": 4,
+      "name": "refrigerator"
+    },
+    {
+      "id": 5,
+      "name": "sink"
+    },
+    {
+      "id": 6,
+      "name": "stairs"
+    },
+    {
+      "id": 7,
+      "name": "stove"
+    },
+    {
+      "id": 8,
+      "name": "table"
+    },
+    {
+      "id": 9,
+      "name": "wall"
+    },
+    {
+      "id": 10,
+      "name": "wc"
+    },
+    {
+      "id": 11,
+      "name": "window"
+    }
+  ],
+  "info": {
+    "year": 2023,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

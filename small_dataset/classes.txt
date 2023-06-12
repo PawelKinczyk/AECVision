@@ -1,0 +1,12 @@
+bath
+dishwasher / washing machine
+door
+furniture
+refrigerator
+sink
+stairs
+stove
+table
+wall
+wc
+window
