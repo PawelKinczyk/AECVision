@@ -4,7 +4,7 @@
 AECVision is an object detection project for the construction industry. The main goal is to deliver good models for various problems like:
 - Detection elements on plans to allow automatized tasks
 - Speed up documentation analysis
-- Create tools for future new computer vision projects 
+- Create tools for future computer vision projects 
 
 ## Information
 
