@@ -20,7 +20,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 ### Available models
 
 | Name | Classes | Model architecture | Number of training images [original/augmented] |
-|------|---------|--------------------|------------------|
+|------|---------|--------------------|------------------------------------------------|
 | traine_best | 12 Classes (see train_results/traine_best/labels.jpg) |  YOLOv5m6 | 252 / 1204 |
 
 
