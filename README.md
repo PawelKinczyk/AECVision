@@ -17,7 +17,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 ### Project pipeline
 insert pipeline image
 
-### Availabe models
+### Available models
 
 | Name | Classes | Model architecture | Number of training images [original/augmented] |
 |------|---------|--------------------|------------------|
