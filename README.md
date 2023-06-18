@@ -17,7 +17,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 ### Project pipeline
 insert pipeline image
 
-### Avaible models
+### Availabe models
 
 | Name | Classes | Model architecture | Number of training images [original/augmented] |
 |------|---------|--------------------|------------------|
@@ -39,7 +39,7 @@ images
 
 ### Screen detection
 
-dddd past gif
+
 ## Project roadmap
 
 - [ ]  Collect and tag more images (up to 500)
