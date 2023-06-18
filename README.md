@@ -15,7 +15,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 - For tagging i use [Label Studio](https://labelstud.io/)
 
 ### Project pipeline
-![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/b869920b-639a-41b4-b434-97d19bdc7f4c)
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/09d22837-d2b4-4b8d-adde-acbbb3dfffab)
 
 ### Available models
 
