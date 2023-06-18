@@ -13,6 +13,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 - Input image resolution 1280x1280
 - Image file .jpg
 - For tagging i use [Label Studio](https://labelstud.io/)
+- Training model in [Google Colab](https://colab.google/) 
 
 ### Project pipeline
 ![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/09d22837-d2b4-4b8d-adde-acbbb3dfffab)
