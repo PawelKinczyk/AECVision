@@ -96,3 +96,4 @@ Contributions are always welcome! I look for help in tagging and improving model
 Thanks, [YOLOv5](https://github.com/ultralytics/yolov5) and [Label Studio](https://labelstud.io/) for your project and tutorials.
 Special thanks to my brother Marcin who help me with tagging.
 
+<a href="https://www.buymeacoffee.com/produktywnl" target="blank"><img align="center" src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" title = "Buy me coffee" alt="" height="50" /></a>
