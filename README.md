@@ -39,7 +39,7 @@ images
 
 ### Screen detection
 
-
+dddd past gif
 ## Project roadmap
 
 - [ ]  Collect and tag more images (up to 500)
