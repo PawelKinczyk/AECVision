@@ -16,7 +16,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 - Training model in [Google Colab](https://colab.google/) 
 
 ### Project pipeline
-![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/09d22837-d2b4-4b8d-adde-acbbb3dfffab)
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/3a8048ff-2d91-4bd8-bc95-834dd4cc1ec7)
 
 ### Available models
 
@@ -36,16 +36,15 @@ The model was trained on clear plans and with annotation but remember that the b
 
 ### Detection
 #### Confidence = 0.5
-![Za -5-Projekt-architektoniczno-budowlany pdf2_2_3](https://github.com/PawelKinczyk/AECVision/assets/96824698/f7b43709-e9e5-4b16-9723-70306e202125)
-#### Confidence = 0.8
-![Za -5-Projekt-architektoniczno-budowlany pdf2_2_31](https://github.com/PawelKinczyk/AECVision/assets/96824698/de853059-628b-4474-831e-765c59835d64)
+![Za -5-Projekt-architektoniczno-budowlany pdf2_2_3](https://github.com/PawelKinczyk/AECVision/assets/96824698/f26e7b79-2da5-42d9-8490-d8eed6da295e)
 
+#### Confidence = 0.8
+![Za -5-Projekt-architektoniczno-budowlany pdf2_2_31](https://github.com/PawelKinczyk/AECVision/assets/96824698/3a28a1b9-8124-434c-8af8-8033a32b8e68)
 
 ### Screen detection
 By using screen_detection.py
 
-https://github.com/PawelKinczyk/AECVision/assets/96824698/f311eab2-11e9-483b-9a99-11136c1eaf29
-
+https://github.com/PawelKinczyk/AECVision/assets/96824698/0e60f9e4-a5dd-4fdc-a695-ea3c943e4a7f
 
 ## Project roadmap
 
@@ -64,22 +63,22 @@ https://github.com/PawelKinczyk/AECVision/assets/96824698/f311eab2-11e9-483b-9a9
 #### Data description
 Walls are overrepresented because this is normal quantities in architectural plans.
 
-![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/e515fdd1-bf00-40f6-9216-5d6eb6fd6c7f)
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/97386b7d-19fe-4136-962a-5b99707d823d)
 
 Maybe in future, i need to create more plans with other categories to improve other classes detection.
 
 #### Learning process
 ##### Model has steadily improved up to the 272nd epoch and probably has further potential.
 
-![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/83dbea04-a7cd-4380-ae17-2158114dec9a)
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/abc451d1-2ea0-497d-bbf7-9b5a6ca45d62)
 
 ##### On the validation set, an increase in "obj_loss" was noted during the learning process.
 
-![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/cdcf25ed-8ea4-4ab1-8f2e-d3655176fdf7)
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/f1217a7b-fc9f-4d62-a7b3-862025eedf28)
 
 ##### Confussion matrix show that all classes except "background" are correctly identified.
 
-![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/0f917feb-e89d-4fe7-9df9-4eb1d18c59fb)
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/f4c0b780-fff5-4bf7-a138-2e4333206a8f)
 
 ##### If you want to dig into training results see train_results or write to me.
 
