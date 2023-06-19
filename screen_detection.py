@@ -9,6 +9,7 @@ model = torch.hub.load("yolov5", 'custom', path="train_results/traine_best/weigh
 model.conf = 0.6 # Define model confidence
 sct = mss()
 
+
 while 1:
     w, h = 1920, 1080
     monitor = {'top': 0, 'left': 0, 'width': w, 'height': h}
