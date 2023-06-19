@@ -4,7 +4,7 @@
 AECVision is an object detection project for the construction industry. The main goal is to deliver good models for various problems like:
 - Detection elements on plans to allow automatized tasks
 - Speed up documentation analysis
-- Create tools for future new computer vision projects 
+- Create tools for future computer vision projects 
 
 ## Information
 
@@ -13,14 +13,15 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 - Input image resolution 1280x1280
 - Image file .jpg
 - For tagging i use [Label Studio](https://labelstud.io/)
+- Training model in [Google Colab](https://colab.google/) 
 
 ### Project pipeline
-insert pipeline image
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/3a8048ff-2d91-4bd8-bc95-834dd4cc1ec7)
 
 ### Available models
 
 | Name | Classes | Model architecture | Number of training images [original/augmented] |
-|------|---------|--------------------|------------------|
+|------|---------|--------------------|------------------------------------------------|
 | traine_best | 12 Classes (see train_results/traine_best/labels.jpg) |  YOLOv5m6 | 252 / 1204 |
 
 
@@ -34,12 +35,17 @@ insert pipeline image
 The model was trained on clear plans and with annotation but remember that the best results you get without many symbols on construction plans. 
 
 ### Detection
+#### Confidence = 0.5
+![Za -5-Projekt-architektoniczno-budowlany pdf2_2_3](https://github.com/PawelKinczyk/AECVision/assets/96824698/f26e7b79-2da5-42d9-8490-d8eed6da295e)
 
-images
+#### Confidence = 0.8
+![Za -5-Projekt-architektoniczno-budowlany pdf2_2_31](https://github.com/PawelKinczyk/AECVision/assets/96824698/3a28a1b9-8124-434c-8af8-8033a32b8e68)
 
 ### Screen detection
+By using screen_detection.py
 
-dddd past gif
+https://github.com/PawelKinczyk/AECVision/assets/96824698/0e60f9e4-a5dd-4fdc-a695-ea3c943e4a7f
+
 ## Project roadmap
 
 - [ ]  Collect and tag more images (up to 500)
@@ -54,7 +60,31 @@ dddd past gif
 ## Summary & Problems
 
 ### First training
+#### Data description
+Walls are overrepresented because this is normal quantities in architectural plans.
 
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/97386b7d-19fe-4136-962a-5b99707d823d)
+
+Maybe in future, i need to create more plans with other categories to improve other classes detection.
+
+#### Learning process
+##### Model has steadily improved up to the 272nd epoch and probably has further potential.
+
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/abc451d1-2ea0-497d-bbf7-9b5a6ca45d62)
+
+##### On the validation set, an increase in "obj_loss" was noted during the learning process.
+
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/f1217a7b-fc9f-4d62-a7b3-862025eedf28)
+
+##### Confussion matrix show that all classes except "background" are correctly identified.
+
+![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/f4c0b780-fff5-4bf7-a138-2e4333206a8f)
+
+##### If you want to dig into training results see train_results or write to me.
+
+#### Problems
+- A small number of certain classes
+- Conversion from pdf (default construction plans format) to jpg results in a loss of image quality
 
 ## Contributing
 
@@ -66,3 +96,4 @@ Contributions are always welcome! I look for help in tagging and improving model
 Thanks, [YOLOv5](https://github.com/ultralytics/yolov5) and [Label Studio](https://labelstud.io/) for your project and tutorials.
 Special thanks to my brother Marcin who help me with tagging.
 
+<a href="https://www.buymeacoffee.com/produktywnl" target="blank"><img align="center" src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" title = "Buy me coffee" alt="" height="50" /></a>
