@@ -18,7 +18,7 @@ while 1:
     
     # Get result of model
     result = model(screen, size=1280)
-
+    
     cv2.imshow('Screen', result.render()[0])
 
     if cv2.waitKey(25) & 0xFF == ord('q'):
