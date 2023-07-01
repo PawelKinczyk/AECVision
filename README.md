@@ -24,11 +24,7 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 |------|---------|--------------------|------------------------------------------------|
 | traine_best | 12 Classes (see train_results/traine_best/labels.jpg) |  YOLOv5m6 | 252 / 1204 |
 
-
-![master](https://img.shields.io/github/last-commit/badges/shields/master)
 [![MIT License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/PawelKinczyk/AECVision/blob/main/LICENSE) 
-
-
 
 ## How it works?
 
