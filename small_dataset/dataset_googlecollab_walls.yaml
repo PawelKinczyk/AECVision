@@ -1,0 +1,11 @@
+
+
+train: /content/drive/MyDrive/ColabNotebooks/AECVision/small_dataset/images/training
+val: /content/drive/MyDrive/ColabNotebooks/AECVision/small_dataset/images/validation
+# test: /home/pan_pawel/Documents/GitHub/AECVision/small_dataset/images/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['wall']
