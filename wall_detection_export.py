@@ -122,6 +122,4 @@ for file in path_convert_pdf.glob("**/*.jpg"):
         shutil.move(source_file_path, destination_file_path)
     shutil.rmtree(image_prediction)
 df_predictions.to_csv(path_export_txt / "prediction.csv")
-# Combine labels into one txt file with x/y coordination and thickness of wall
 
-# Import this txt file into revit by pyrevit
