@@ -56,6 +56,7 @@ def crop_image(path_pdf, path_convert_pdf, hight_pixels, width_pixels, bytes_ima
 path_pdf = Path("wall_detection_export/upload_pdf")
 path_convert_pdf = Path("wall_detection_export/convert_pdf")
 path_export_txt = Path("wall_detection_export/export_txt")
+path_model = Path("train_results/model_12classes/weights/best.pt")
 
 data = convert_pdf(path_pdf=path_pdf, path_convert_pdf=path_convert_pdf)
 # Chop pdf to 1280x1280
@@ -87,7 +88,7 @@ for h_multiplication, h_iteration in enumerate(range(h_crop_iterations), 1):
         img_crop.save(crop_save)
 # Detection walls and export txt labels
 model = torch.hub.load(
-    "yolov5", 'custom', path="train_results/model_12classes/weights/best.pt", source='local')
+    "yolov5", 'custom', path=path_model, source='local')
 model.conf = 0.6  # Define model confidence
 
 df_predictions = pd.DataFrame()
@@ -101,10 +102,10 @@ for file in path_convert_pdf.glob("**/*.jpg"):
     predictions = results.pandas().xyxy[0]
     df = pd.DataFrame(predictions)
     df = df[df["name"] == "wall"]
-    df['ymin'] = df['ymin'] + float(file_name[1]) * 1280
-    df["ymax"] = df["ymax"] + float(file_name[1]) * 1280
-    df["xmin"] = df["xmin"] + float(file_name[2]) * 1280
-    df["xmax"] = df["xmax"] + float(file_name[2]) * 1280
+    df['ymin'] = df['ymin'] + float(file_name[1]) * -1280
+    df["ymax"] = df["ymax"] + float(file_name[1]) * -1280
+    df["xmin"] = df["xmin"] + float(file_name[2]) * -1280
+    df["xmax"] = df["xmax"] + float(file_name[2]) * -1280
     print(df)
     df_predictions = pd.concat([df_predictions, df])
 
