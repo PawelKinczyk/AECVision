@@ -160,6 +160,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Visual studio code
+.vscode
+
 # Others
 small_dataset_augmented/
 small_dataset_rar/

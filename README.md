@@ -20,10 +20,12 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 
 ### Available models
 
-| Name | Classes | Model architecture | Number of training images [original/augmented] |
-|------|---------|--------------------|------------------------------------------------|
-| model_12classes | 12 Classes (see train_results/traine_best/labels.jpg) |  YOLOv5m6 | 252 / 1204 |
-| model_walls | Wall |  YOLOv5m6 | 252 / 1204 |
+| Name | Classes | Model architecture | Number of training images [original/augmented] | Color |
+|------|---------|--------------------|------------------------------------------------|-------|
+| model_12classes | 12 Classes (see train_results) |  YOLOv5m6 | 252 / 1204 | RGB |
+| model_walls | Wall |  YOLOv5m6 | 252 / 1204 | RGB |
+| model_12classes_gray | 12 Classes (see train_results) |  YOLOv5m6 | 252 / 1204 | GRAY |
+| model_walls_gray | Wall |  YOLOv5m6 | 252 / 1204 | GRAY |
 
 [![MIT License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/PawelKinczyk/AECVision/blob/main/LICENSE) 
 
