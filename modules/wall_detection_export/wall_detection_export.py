@@ -7,10 +7,11 @@ import os
 
 from classes_functions import Convert_pdf, crop_image
 
+
 # Upload pdf and change to jpg
-path_upload_pdf = Path("wall_detection_export/upload_pdf")
-path_convert_pdf = Path("wall_detection_export/convert_pdf")
-path_export_txt = Path("wall_detection_export/export_txt")
+path_upload_pdf = Path("modules/wall_detection_export/files/upload_pdf")
+path_convert_pdf = Path("modules/wall_detection_export/files/converted_pdf")
+path_export_txt = Path("modules/wall_detection_export/files/exported_csv")
 path_model = Path("train_results/model_12classes/weights/best.pt")
 
 # Convert pdf to jpg
