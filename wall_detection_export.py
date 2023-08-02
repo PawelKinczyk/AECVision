@@ -28,7 +28,7 @@ crop_image(
 
 # Setup model
 model = torch.hub.load("yolov5", "custom", path=path_model, source="local")
-model.conf = 0.6  # Define model confidence
+model.conf = 0.8  # Define model confidence
 
 # Pandas dataframe to store predictions
 df_predictions = pd.DataFrame()

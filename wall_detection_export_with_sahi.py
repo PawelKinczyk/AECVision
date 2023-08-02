@@ -19,7 +19,7 @@ convert_file = converter.save_image(path_convert_pdf)
 detection_model = AutoDetectionModel.from_pretrained(
     model_type="yolov5_custom",
     model_path=path_model,
-    confidence_threshold=0.3,  # Define model confidence
+    confidence_threshold=0.8,  # Define model confidence
     device="cuda",  # or 'cuda:0'
 )
 
