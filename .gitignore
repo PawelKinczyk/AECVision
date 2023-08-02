@@ -161,7 +161,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+<<<<<<< HEAD
 # Visual studio files
+=======
+# Visual studio code
+>>>>>>> febc5a37592e38dd47c1ec78cc15540a6c218e18
 .vscode
 
 # Others
