@@ -86,7 +86,7 @@ ipython_config.py
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
 # .python-version
-aec-env/
+
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
@@ -128,6 +128,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+aec-env/
 
 # Spyder project settings
 .spyderproject
@@ -160,7 +161,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+<<<<<<< HEAD
+# Visual studio files
+=======
 # Visual studio code
+>>>>>>> febc5a37592e38dd47c1ec78cc15540a6c218e18
 .vscode
 
 # Others
