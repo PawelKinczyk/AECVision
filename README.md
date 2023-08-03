@@ -18,7 +18,6 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 
 ### Folder structure
 ```
-virtual-env # Here you should have your virtual-env
 modules # Project modules
 ├───object_detection # Detection screen module
 │   └───screen_detection.ipynb 
