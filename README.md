@@ -13,7 +13,45 @@ Now project is base on [YOLOv5](https://github.com/ultralytics/yolov5) repo but 
 - Input image resolution 1280x1280
 - Image file .jpg
 - For tagging i use [Label Studio](https://labelstud.io/)
-- Training model in [Google Colab](https://colab.google/) 
+- Training model in [Google Colab](https://colab.google/)
+- Detection images with using [Sahi](https://github.com/obss/sahi)
+
+### Folder structure
+```
+modules # Project modules
+├───object_detection # Detection screen module
+│   └───screen_detection.ipynb 
+├───prepare_data_and_training # Prepare data and training in google colab module
+│   ├───dataset
+│   │   ├───images
+│   │   │   ├───test
+│   │   │   ├───training
+│   │   │   └───validation
+│   │   └───labels
+│   │       ├───labels_reduce_classes
+│   │       ├───test
+│   │       ├───training
+│   │       └───validation
+│   ├───prepare_data_from_pdf.ipynb
+│   └───train_model_in_google_colab.ipynb
+├───wall_detection_export # Export walls detection coordinates to csv and allow imports in other program
+│   ├───files
+│   │   ├───converted_pdf
+│   │   ├───exported_csv
+│   │   └───upload_pdf
+│   ├───classes_functions.py
+│   ├───wall_detection_export_with_sahi.py
+│   └───wall_detection_export.py
+train_results # Available modules
+├───model_12classes
+├───model_12classes_gray
+├───model_walls
+└───model_walls_gray
+yolov5 # Cloned Yolov5 repository
+LICENSE
+README.md
+requirements.txt
+```
 
 ### Project pipeline
 ![image](https://github.com/PawelKinczyk/AECVision/assets/96824698/3a8048ff-2d91-4bd8-bc95-834dd4cc1ec7)
@@ -44,6 +82,14 @@ The model was trained on clear plans and with annotation but remember that the b
 By using screen_detection.py
 
 https://github.com/PawelKinczyk/AECVision/assets/96824698/0e60f9e4-a5dd-4fdc-a695-ea3c943e4a7f
+
+### Objects import from detections
+Press image to watch film. This works with my [PYLAB extension](https://github.com/PawelKinczyk/PYLAB)
+<br>
+
+[![Watch the video](https://github-production-user-asset-6210df.s3.amazonaws.com/96824698/258236845-3e0c66e2-2252-4651-92e7-3209384512f8.png)](https://youtu.be/Omx21mXyZCI)
+
+<br>
 
 ## Project roadmap
 
