@@ -83,6 +83,14 @@ By using screen_detection.py
 
 https://github.com/PawelKinczyk/AECVision/assets/96824698/0e60f9e4-a5dd-4fdc-a695-ea3c943e4a7f
 
+### Objects import from detections
+Press image to watch film. This works with my [PYLAB extension](https://github.com/PawelKinczyk/PYLAB)
+<br>
+
+[![Watch the video](https://github-production-user-asset-6210df.s3.amazonaws.com/96824698/258236845-3e0c66e2-2252-4651-92e7-3209384512f8.png)](https://youtu.be/Omx21mXyZCI)
+
+<br>
+
 ## Project roadmap
 
 - [ ]  Collect and tag more images (up to 500)
