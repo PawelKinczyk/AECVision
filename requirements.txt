@@ -3,7 +3,7 @@ asttokens==2.2.1
 autopep8==2.0.2
 backcall==0.2.0
 black==23.3.0
-certifi==2022.12.7
+certifi==2023.7.22
 charset-normalizer==3.1.0
 ci-info==0.3.0
 click==8.1.4
